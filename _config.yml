@@ -1,6 +1,6 @@
-title:        API Evangelist
-description:  A network of research sites dedicated to the technology, business, and politics of APIs.
-url:          http://apievangelist.com
+title:        Providing YAML  driven XML, JSON, and Atom using Jekyll
+description:  Serving up a handful of different data formats driven from  single YAML file using Jekyll.
+url:          http://xml.son.yaml.jekyll.apievangelist.com
 
 version:      1.1.1
 
@@ -21,7 +21,7 @@ paginate_path: "/blog/page:num"
 categories_path : /categories.html
 tags_path : /tags.html
 
-production_url : http://apievangelist.com
+production_url : http://xml.son.yaml.jekyll.apievangelist.com
 
 image : http://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 imagesecure : https://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
