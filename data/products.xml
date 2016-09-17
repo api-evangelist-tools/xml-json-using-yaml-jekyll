@@ -1,11 +1,12 @@
 ---
 layout: none
 ---
-[{% for product in site.data.products %}
-  {
-    "id": "{{ product.id }}",
-    "name": "{{ product.name }}",
-    "description": "{{ product.description }}",
-    "price": "{{ product.price }}"
-  }{% if forloop.last == false %},{% endif %}
-{% endfor %}]
+<?xml version="1.0"?>
+<products>{% for product in site.data.products %}
+   <product>
+      <id>{{ product.id }}</author>
+      <name>{{ product.name }}</title>
+      <description>{{ product.description }}</genre>
+      <price>{{ product.frequency }}</price>
+   </product>
+{% endfor %}</products>
