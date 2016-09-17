@@ -1,0 +1,12 @@
+---
+layout: none
+---
+<?xml version="1.0"?>
+<products>{% for chart in site.data.bar-chart %}
+   <product id="{{ chart.id }}">
+      <id>{{ chart.id }}</author>
+      <name>{{ chart.name }}</title>
+      <description>{{ chart.description }}</genre>
+      <price>{{ chart.frequency }}</price>
+   </product>
+{% endfor %}</products>
