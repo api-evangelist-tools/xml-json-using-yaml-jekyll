@@ -5,8 +5,8 @@ layout: none
 <products>{% for product in site.data.products %}
    <product>
       <id>{{ product.id }}</id>
-      <name>{{ product.name }}</title>
-      <description>{{ product.description }}</genre>
-      <price>{{ product.frequency }}</price>
+      <name>{{ product.name }}</name>
+      <description>{{ product.description }}</description>
+      <price>{{ product.price }}</price>
    </product>{% endfor %}
  </products>
