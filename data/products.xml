@@ -1,9 +1,11 @@
 ---
 layout: none
 ---
-[{% for chart in site.data.bar-chart %}
+[{% for product in site.data.products %}
   {
-    "letter": "{{ chart.year }}",
-    "frequency": "{{ chart.frequency }}"
+    "id": "{{ product.id }}",
+    "name": "{{ product.name }}",
+    "description": "{{ product.description }}",
+    "price": "{{ product.price }}"
   }{% if forloop.last == false %},{% endif %}
 {% endfor %}]

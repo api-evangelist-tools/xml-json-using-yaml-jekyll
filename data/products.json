@@ -2,11 +2,11 @@
 layout: none
 ---
 <?xml version="1.0"?>
-<products>{% for chart in site.data.bar-chart %}
-   <product id="{{ chart.id }}">
-      <id>{{ chart.id }}</author>
-      <name>{{ chart.name }}</title>
-      <description>{{ chart.description }}</genre>
-      <price>{{ chart.frequency }}</price>
+<products>{% for product in site.data.products %}
+   <product>
+      <id>{{ product.id }}</author>
+      <name>{{ product.name }}</title>
+      <description>{{ product.description }}</genre>
+      <price>{{ product.frequency }}</price>
    </product>
 {% endfor %}</products>
